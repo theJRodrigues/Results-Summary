@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .result,
+  .summary {
+    width: 100%;
+  }
+  .result {
+    border-radius: 0 0 var(--border-r) var(--border-r);
+  }
+
+  .summary {
+    height: 100%;
+  gap: 2rem;
+
+  }
+
+  .summary .summary-content {
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+}
