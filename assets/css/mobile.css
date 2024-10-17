@@ -13,12 +13,12 @@
   }
   .result {
     border-radius: 0 0 var(--border-r) var(--border-r);
+    gap: 1rem;
   }
 
   .summary {
     height: 100%;
-  gap: 2rem;
-
+    gap: 2rem;
   }
 
   .summary .summary-content {
